@@ -1,0 +1,321 @@
+/*!Estilos ejercicio NO MODIFICAR*/
+#ejercicio1 .parte1,
+#ejercicio1 .parte3 {
+    background-color: #4997d0;
+}
+
+/*****/
+#ejercicio2 .parte1,
+#ejercicio2 .parte2 {
+    background-color: #138707;
+}
+
+#ejercicio2 .parte3,
+#ejercicio2 .parte4 {
+    background-color: #ff9a33;
+}
+
+#ejercicio2 .parte5,
+#ejercicio2 .parte6 {
+    background-color: white;
+}
+
+/*****/
+#ejercicio3 .parte1,
+#ejercicio3 .parte6 {
+    background-color:
+        #002654;
+}
+
+#ejercicio3 .parte2,
+#ejercicio3 .parte4,
+#ejercicio3 .parte7 {
+    background-color: white;
+}
+
+#ejercicio3 .parte3,
+#ejercicio3 .parte5 {
+    background-color:
+        #ce1126;
+}
+
+/*****/
+#ejercicio4 .parte1,
+#ejercicio4 .parte3,
+#ejercicio4 .parte5,
+#ejercicio4 .parte7 {
+    background-color: #006aa8;
+}
+
+#ejercicio4 .parte2,
+#ejercicio4 .parte4,
+#ejercicio4 .parte6 {
+    background-color: #fecd00;
+}
+
+/*****/
+#ejercicio5 .contenedor {
+    background-color: #ed1d26;
+}
+
+#ejercicio5 .parte1,
+#ejercicio5 .parte3,
+#ejercicio5 .parte2 {
+    background-color: white;
+}
+/*--------------------------*/
+/**Colocar a partir de aca sus estilos EJERICICO 1*/
+
+#ejercicio1 .contenedor{
+    display: flex;
+    width: 25%;
+    height: 30vh;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#ejercicio1 .contenedor .parte1{
+    width: 33.33%;
+    height: 100%;
+}
+
+#ejercicio1 .contenedor .parte2{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+#ejercicio1 .parte2 img{
+    width: 80%;
+    height: 35%;
+    align-self: center;
+
+}
+
+#ejercicio1 .contenedor .parte3{
+    width: 33.33%;
+    height: 100%;
+    order: 1;
+}
+/**Colocar a partir de aca sus estilos EJERCICIO 2*/
+#ejercicio2 .contenedor{
+    width: 25%;
+    height: 50vh;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    display: flex;
+    flex-direction: column;
+}
+#ejercicio2 .contenedor .parte1{
+    width: 100%;
+    height: 33.33%;
+    order: -1;
+}
+#ejercicio2 .contenedor .parte2{
+    width: 100%;
+    height: 33.33%;
+    order: 1;
+    
+}
+#ejercicio2 .contenedor .parte3{
+    width: 100%;
+    height: 33.33%;
+    order: -2;
+}
+#ejercicio2 .contenedor .parte4{
+    width: 100%;
+    height: 33.33%;
+}
+#ejercicio2 .contenedor .parte5{
+    width: 100%;
+    height: 33.33%;
+    order: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: -2;
+
+}
+#ejercicio2 .contenedor .parte5 img{
+    width: 20%;
+    height: auto;
+}
+
+#ejercicio2 .contenedor .parte6{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#ejercicio2 .contenedor .parte6 img{
+    width: 20%;
+    height: auto;
+}
+
+#ejercicio2 .contenedor .parte7{
+    width: 100%;
+    height: 5%;
+    order:-1;
+}
+/**Colocar a partir de aca sus estilos EJERCICIO 3*/
+#ejercicio3 .contenedor{
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+  overflow-y: hidden;
+}
+#bajos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+  overflow-x: hidden;
+}
+#bajos .parte1{
+    width: 100%;
+    height: 33.33%;    
+}
+#bajos .parte2{
+    width: 100%;
+    height: 33.33%;
+}
+#bajos .parte3{
+    width: 33vh;
+    height: 33.33%;
+}
+#ejercicio3 .contenedor .francia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    order: 1;
+    flex-direction: row-reverse;
+}
+#ejercicio3 .contenedor .francia .parte4{
+    width: 33.33%;
+    height:100%;
+}
+#ejercicio3 .contenedor .francia .parte5{
+    width: 33.33%;
+    height: 33vh;
+    order: -1;
+}
+#ejercicio3 .contenedor .francia .parte6{
+    width: 33.33%;
+    height: 100%;
+}
+#ejercicio3 .contenedor .parte7{
+    width: 2%;
+    height: 100%;
+}
+
+/**Colocar a partir de aca sus estilos EJERCICIO 4*/
+#ejercicio4 .contenedor{
+    width: 25%;
+    height: 30vh;
+    flex-direction: column;
+}
+#superior{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+#superior .parte1{
+    width: 30%;
+    height: 100%;
+}
+#superior .parte2{
+    width: 5%;
+    height: 100%;
+}
+#superior .parte3{
+    width: 65%;
+    height: 100%;
+}
+.contenedor .parte4{
+    width: 100%;
+    height: 10%;
+    align-self: center;
+}
+#inferior{
+    width: 100%;
+    height: 45%;
+    display:flex;
+}
+#inferior .parte5{
+    width:30%;
+    height: 100%;
+}
+#inferior .parte6{
+    width: 5%;
+    height: 100%;
+}
+#inferior .parte7{
+    width: 65%;
+    height: 100%;
+}
+
+/**Colocar a partir de aca sus estilos*/
+#ejercicio5 .contenedor{
+    width: 25%;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#ejercicio5 .contenedor .parte1{
+    background-color: white;
+    width: 10%;
+    height: 20%;
+    align-self: center;
+}
+#ejercicio5 .contenedor .parte2{
+    background-color: white;
+    width: 40%;
+    height: 15%;
+    align-self: center;
+}
+#ejercicio5 .contenedor .parte3{
+    background-color: white;
+    width: 10%;
+    height: 20%;
+    align-self: center;
+}
+
+#ejercicio1, #ejercicio2, #ejercicio3, #ejercicio4, #ejercicio5{
+    display: contents;
+}
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1, h2{
+
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 75px;
+}
+p{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 35px;
+    color: #138707;
+}
+
